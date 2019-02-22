@@ -205,9 +205,11 @@ input:focus ~ .highlight {
   min-height: 120px;
   display: flex;
   justify-content: center;
+  align-items: center;
   margin: 50px 0; }
   .form-view.submitted .submitted-info-container h2 {
-    color: #ff8063; }
+    color: #4248a0;
+    margin: 0; }
 
 .form-view.loading .loading-container {
   min-height: 120px;
@@ -241,7 +243,7 @@ input:focus ~ .highlight {
 body {
   margin: 0;
   padding: 0;
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -254,7 +256,7 @@ body {
 .content {
   padding: 0 10px;
   max-width: 100%;
-  height: calc(100% - 120px);
+  height: calc(100vh - 120px);
   max-height: 650px;
   display: flex;
   flex-direction: column;

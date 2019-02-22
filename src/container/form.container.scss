@@ -55,10 +55,12 @@
       min-height: 120px;
       display: flex;
       justify-content: center;
+      align-items: center;
       margin: 50px 0;
 
       h2 {
-        color: $secondary-color
+        color: $primary-color;
+        margin: 0;
       }
     }
   }

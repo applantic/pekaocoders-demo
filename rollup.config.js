@@ -3,12 +3,12 @@ import scss  from 'rollup-plugin-scss';
 export default {
     input: 'src/main.js',
     output: {
-        file: 'public/main.min.js',
+        file: 'demo/main.min.js',
         format: 'umd'
     },
     plugins: [
         scss({
-            output: 'public/main.css'
+            output: 'demo/main.css'
         }),
     ]
 };
